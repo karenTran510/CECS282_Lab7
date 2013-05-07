@@ -40,7 +40,103 @@
 	"Hamster.h"
 	"Pet.h"
 
+1367919435 D
+
 1367919435 source:c:\users\karen\282_workspace\last\last\pet.cpp
+
+1367916268 source:c:\users\diana\documents\github\cecs282_lab7\last\last\main.cpp
+	<cstdlib>
+	<iostream>
+	<string>
+	"Bird.h"
+	"Dog.h"
+	"Hamster.h"
+	"Pet.h"
+
+1367916268 c:\users\diana\documents\github\cecs282_lab7\last\last\bird.h
+	"Pet.h"
+
+1367916268 c:\users\diana\documents\github\cecs282_lab7\last\last\pet.h
+	<iostream>
+	<string>
+
+1367916268 c:\users\diana\documents\github\cecs282_lab7\last\last\dog.h
+	"Pet.h"
+
+1367916268 c:\users\diana\documents\github\cecs282_lab7\last\last\hamster.h
+	"Pet.h"
+
+1367916268 source:c:\users\diana\documents\github\cecs282_lab7\last\last\bird.cpp
+	<cstdlib>
+	<iostream>
+	<string>
+	"Bird.h"
+
+1367916268 source:c:\users\diana\documents\github\cecs282_lab7\last\last\dog.cpp
+	<cstdlib>
+	<iostream>
+	<string>
+	"Dog.h"
+
+1367916268 source:c:\users\diana\documents\github\cecs282_lab7\last\last\hamster.cpp
+	<cstdlib>
+	<iostream>
+	<string>
+	"Hamster.h"
+
+1367916268 source:c:\users\diana\documents\github\cecs282_lab7\last\last\pet.cpp
+
+1367919435 dded in dialogue and menu options
+
+1367919435 p
+	<cstdlib>
+	<iostream>
+	<string>
+	<ctime>
+	"Pet.h"
+
+1367920010 source:c:\users\karen\documents\github\cecs282_lab7\last\last\bird.cpp
+	<cstdlib>
+	<iostream>
+	<string>
+	"Bird.h"
+
+1367920010 c:\users\karen\documents\github\cecs282_lab7\last\last\bird.h
+	"Pet.h"
+
+1367968949 c:\users\karen\documents\github\cecs282_lab7\last\last\pet.h
+	<iostream>
+	<string>
+
+1367920010 source:c:\users\karen\documents\github\cecs282_lab7\last\last\dog.cpp
+	<cstdlib>
+	<iostream>
+	<string>
+	"Dog.h"
+
+1367920010 c:\users\karen\documents\github\cecs282_lab7\last\last\dog.h
+	"Pet.h"
+
+1367920010 source:c:\users\karen\documents\github\cecs282_lab7\last\last\hamster.cpp
+	<cstdlib>
+	<iostream>
+	<string>
+	"Hamster.h"
+
+1367920010 c:\users\karen\documents\github\cecs282_lab7\last\last\hamster.h
+	"Pet.h"
+
+1367968949 source:c:\users\karen\documents\github\cecs282_lab7\last\last\main.cpp
+	<cstdlib>
+	<iostream>
+	<string>
+	<sstream>
+	"Bird.h"
+	"Dog.h"
+	"Hamster.h"
+	"Pet.h"
+
+1367969741 source:c:\users\karen\documents\github\cecs282_lab7\last\last\pet.cpp
 	<cstdlib>
 	<iostream>
 	<string>

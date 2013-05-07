@@ -158,18 +158,28 @@ bool Pet::Check()
 	{
 		return false;
 	}
-		return true;
+	else
+    {
+        return true;
+    }
 };
 
 //Displays Pet's overall health & checks Pet's lifespan
 void Pet::Menu()
-{
+{    if (Check())
+    {
         //Health Display
-        cout << "==" <<getName() <<"'s overall health=="<< endl;
-        cout << "Hunger: " << getHungry()<< endl;
+        cout << "\n\n==" <<getName() <<"'s Overall Health=="<< endl;
+        cout << "\nHunger: " << getHungry()<< endl;
         cout << "Happy: " << getHappy() << endl;
         cout << "Clean: " << getClean() << endl;
         cout << "Disease: " << getDisease()<< endl;
+        cout << "Health Status: " << getDisease()<< endl;
+    }
+    else
+    {
+        cout << "Game Over." << getName() << " died.";
+    }
 };
 void Pet::UserInput(Pet * p)
 {

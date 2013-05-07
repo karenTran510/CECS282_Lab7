@@ -67,7 +67,7 @@ int main()
         p1->Menu();
         p1->UserInput(p1);
 
-    }while(p1->Pet::Check());
+    }while(p1->Pet::Check() );
 
     return 0;
 }

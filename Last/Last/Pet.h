@@ -29,7 +29,7 @@ class Pet
 		void changeAge(int n);
 
 		//Pure Virtual functions
-		//These functions are going to be modified because each pet wants different things, and that they could start off with different ages
+		//These functions are going to be modified because each pet wants different things, and that they could         start       off with different ages
 		//These are NOT the actual meters.
 		virtual void feed()=0;
 		virtual void play()=0;
