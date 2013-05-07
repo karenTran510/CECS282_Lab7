@@ -9,9 +9,9 @@ class Dog: virtual public Pet
 		Dog(string name, int hunger, int happy, int clean, int age);
 
 		//These are the attribute modifiers
-		void feed(int option);
-		void play(int option);
-		void cleanIt(int option);
+		void feed();
+		void play();
+		void cleanIt();
 
 		//Each type of Dog has a different age
 		void setAge(); //can be changed in each class
