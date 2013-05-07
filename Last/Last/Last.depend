@@ -39,7 +39,7 @@
 	"Hamster.h"
 	"Pet.h"
 
-1367897226 source:c:\users\diana\documents\github\cecs282_lab7\last\last\main.cpp
+1367916268 source:c:\users\diana\documents\github\cecs282_lab7\last\last\main.cpp
 	<cstdlib>
 	<iostream>
 	<string>
@@ -48,38 +48,38 @@
 	"Hamster.h"
 	"Pet.h"
 
-1367891839 c:\users\diana\documents\github\cecs282_lab7\last\last\bird.h
+1367916268 c:\users\diana\documents\github\cecs282_lab7\last\last\bird.h
 	"Pet.h"
 
-1367894147 c:\users\diana\documents\github\cecs282_lab7\last\last\pet.h
+1367916268 c:\users\diana\documents\github\cecs282_lab7\last\last\pet.h
 	<iostream>
 	<string>
 
-1367891839 c:\users\diana\documents\github\cecs282_lab7\last\last\dog.h
+1367916268 c:\users\diana\documents\github\cecs282_lab7\last\last\dog.h
 	"Pet.h"
 
-1367891839 c:\users\diana\documents\github\cecs282_lab7\last\last\hamster.h
+1367916268 c:\users\diana\documents\github\cecs282_lab7\last\last\hamster.h
 	"Pet.h"
 
-1367891839 source:c:\users\diana\documents\github\cecs282_lab7\last\last\bird.cpp
+1367916268 source:c:\users\diana\documents\github\cecs282_lab7\last\last\bird.cpp
 	<cstdlib>
 	<iostream>
 	<string>
 	"Bird.h"
 
-1367891839 source:c:\users\diana\documents\github\cecs282_lab7\last\last\dog.cpp
+1367916268 source:c:\users\diana\documents\github\cecs282_lab7\last\last\dog.cpp
 	<cstdlib>
 	<iostream>
 	<string>
 	"Dog.h"
 
-1367891839 source:c:\users\diana\documents\github\cecs282_lab7\last\last\hamster.cpp
+1367916268 source:c:\users\diana\documents\github\cecs282_lab7\last\last\hamster.cpp
 	<cstdlib>
 	<iostream>
 	<string>
 	"Hamster.h"
 
-1367896735 source:c:\users\diana\documents\github\cecs282_lab7\last\last\pet.cpp
+1367916268 source:c:\users\diana\documents\github\cecs282_lab7\last\last\pet.cpp
 	<cstdlib>
 	<iostream>
 	<string>

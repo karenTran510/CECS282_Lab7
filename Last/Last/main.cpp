@@ -1,6 +1,7 @@
 #include <cstdlib>
 #include <iostream>
 #include <string>
+#include <sstream>
 #include "Bird.h"
 #include "Dog.h"
 #include "Hamster.h"
@@ -9,14 +10,23 @@ using namespace std;
 
 static int getPetSelect()
 {
-    int petSelect;
+    string petSelect;
+    int choice = 0;
+    while (true)
+    {
     cout << "\nPet Menu Options" << endl;
     cout << "1. Bird" << endl;
     cout << "2. Hamster" << endl;
     cout << "3. Dog" << endl;
     cout << "\nSelect an option: ";
-    cin >> petSelect;
-    return petSelect;
+    getline(cin, petSelect);
+
+    stringstream myStream(petSelect);
+    if (myStream >> choice)
+        break;
+    cout << "Invalid option. Please try again." << endl;
+    }
+    return choice;
 }
 
 int main()
@@ -54,8 +64,8 @@ int main()
 
     do
     {
-        p1->Pet::Menu();
-        p1->Pet::UserInput(p1);
+        p1->Menu();
+        p1->UserInput(p1);
 
     }while(p1->Pet::Check() );
 
