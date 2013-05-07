@@ -10,10 +10,12 @@ using namespace std;
 static int getPetSelect()
 {
     int petSelect;
-    cout << "Pet Menu Options" << endl;
+    cout << "Welcome to Karen and Diana's Pretty Pet Project!" << endl;
+    cout << "\nPet Menu Options" << endl;
     cout << "1. Bird" << endl;
     cout << "2. Hamster" << endl;
     cout << "3. Dog" << endl;
+    cout << "\nSelect an option: ";
     cin >> petSelect;
     return petSelect;
 }
@@ -24,11 +26,11 @@ int main()
     Pet * p1;
     string animal;
     string name;
-    cout << "What would you like to name your new adopted pet?\n";
+    cout << "\nWhat would you like to name your new adopted pet?\n";
     cin >> name;
-    Bird * b = new Bird(name, 10,10,10,2);
-    Hamster * h = new Hamster(name, 10,10,10,2);
-    Dog * d = new Dog(name, 10,10,10,2);
+    Bird * b = new Bird(name, 5,10,5,2);
+    Hamster * h = new Hamster(name, 5,10,5,2);
+    Dog * d = new Dog(name, 5,10,5,2);
 
     switch(option)
     {

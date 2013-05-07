@@ -158,7 +158,10 @@ bool Pet::Check()
 	{
 		return false;
 	}
-		return true;
+	else
+    {
+        return true;
+    }
 };
 
 //Displays Pet's overall health & checks Pet's lifespan
@@ -167,7 +170,7 @@ void Pet::Menu()
     if (Check())
     {
         //Health Display
-        cout << "==" <<getName() <<"'s overall health=="<< endl;
+        cout << "\n==" <<getName() <<"'s overall health=="<< endl;
         cout << "Hunger: " << getHungry()<< endl;
         cout << "Happy: " << getHappy() << endl;
         cout << "Clean: " << getClean() << endl;
@@ -181,7 +184,7 @@ void Pet::Menu()
 
 void Pet::UserInput(Pet * p)
 {
-    cout << "What would you like to do with your pet? Enter a number."<< endl;
+    cout << "What would you like to do with your pet?"<< endl;
     //Pet Activities
     cout << "1. Feed" << endl;
     cout << "2. Play" << endl;
@@ -189,6 +192,7 @@ void Pet::UserInput(Pet * p)
     cout << "4. Cure" << endl;
     cout << "5. Quit" << endl;
 
+    cout << "\nEnter a number: ";
     //Takes in the user's input
     int user;
     cin >>user;
