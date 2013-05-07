@@ -1,0 +1,41 @@
+# depslib dependency file v1.0
+1367824431 source:c:\users\karen\282_workspace\last\last\bird.cpp
+	<cstdlib>
+	<iostream>
+	<string>
+	"Bird.h"
+
+1367814689 c:\users\karen\282_workspace\last\last\bird.h
+	"Pet.h"
+
+1367824254 c:\users\karen\282_workspace\last\last\pet.h
+	<iostream>
+	<string>
+
+1367824305 source:c:\users\karen\282_workspace\last\last\dog.cpp
+	<cstdlib>
+	<iostream>
+	<string>
+	"Dog.h"
+
+1367814695 c:\users\karen\282_workspace\last\last\dog.h
+	"Pet.h"
+
+1367824532 source:c:\users\karen\282_workspace\last\last\hamster.cpp
+	<cstdlib>
+	<iostream>
+	<string>
+	"Hamster.h"
+
+1367824487 c:\users\karen\282_workspace\last\last\hamster.h
+	"Pet.h"
+
+1367866078 source:c:\users\karen\282_workspace\last\last\main.cpp
+	<cstdlib>
+	<iostream>
+	<string>
+	"Bird.h"
+	"Dog.h"
+	"Hamster.h"
+	"Pet.h"
+
