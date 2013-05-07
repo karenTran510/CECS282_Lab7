@@ -39,7 +39,7 @@
 	"Hamster.h"
 	"Pet.h"
 
-1367893560 source:c:\users\diana\documents\github\cecs282_lab7\last\last\main.cpp
+1367897226 source:c:\users\diana\documents\github\cecs282_lab7\last\last\main.cpp
 	<cstdlib>
 	<iostream>
 	<string>
@@ -79,7 +79,7 @@
 	<string>
 	"Hamster.h"
 
-1367893614 source:c:\users\diana\documents\github\cecs282_lab7\last\last\pet.cpp
+1367896735 source:c:\users\diana\documents\github\cecs282_lab7\last\last\pet.cpp
 	<cstdlib>
 	<iostream>
 	<string>

@@ -10,7 +10,6 @@ using namespace std;
 static int getPetSelect()
 {
     int petSelect;
-    cout << "Welcome to Karen and Diana's Pretty Pet Project!" << endl;
     cout << "\nPet Menu Options" << endl;
     cout << "1. Bird" << endl;
     cout << "2. Hamster" << endl;
@@ -22,16 +21,17 @@ static int getPetSelect()
 
 int main()
 {
+    cout << "Welcome to Karen and Diana's Pretty Pet Project!" << endl;
     int option = getPetSelect();
     Pet * p1;
     string animal;
     string name;
-    cout << "\nWhat would you like to name your new adopted pet?\n";
-    cin >> name;
-    Bird * b = new Bird(name, 5,10,5,2);
-    Hamster * h = new Hamster(name, 5,10,5,2);
-    Dog * d = new Dog(name, 5,10,5,2);
 
+        cout << "\nWhat would you like to name your new adopted pet? ";
+        cin >> name;
+        Bird * b = new Bird(name, 5,10,5,2);
+        Hamster * h = new Hamster(name, 5,10,5,2);
+        Dog * d = new Dog(name, 5,10,5,2);
     switch(option)
     {
         //The declaration of the classes must be outside the switch case, otherwise, cross initialization occurs.
@@ -48,6 +48,8 @@ int main()
             p1 = d;
             animal = "dog";
         break;
+    default:
+            cout << "Invalid option. Please select 1, 2, or 3.";
     }
 
     do
@@ -55,7 +57,7 @@ int main()
         p1->Pet::Menu();
         p1->Pet::UserInput(p1);
 
-    }while(p1->Pet::Check());
+    }while(p1->Pet::Check() );
 
     return 0;
 }

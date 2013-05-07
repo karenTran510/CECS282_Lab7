@@ -170,11 +170,11 @@ void Pet::Menu()
     if (Check())
     {
         //Health Display
-        cout << "\n==" <<getName() <<"'s overall health=="<< endl;
-        cout << "Hunger: " << getHungry()<< endl;
+        cout << "\n\n==" <<getName() <<"'s Overall Health=="<< endl;
+        cout << "\nHunger: " << getHungry()<< endl;
         cout << "Happy: " << getHappy() << endl;
         cout << "Clean: " << getClean() << endl;
-        cout << "Disease: " << getDisease()<< endl;
+        cout << "Health Status: " << getDisease()<< endl;
     }
     else
     {
@@ -184,7 +184,7 @@ void Pet::Menu()
 
 void Pet::UserInput(Pet * p)
 {
-    cout << "What would you like to do with your pet?"<< endl;
+    cout << "\nWhat would you like to do with your pet?\n";
     //Pet Activities
     cout << "1. Feed" << endl;
     cout << "2. Play" << endl;
@@ -219,7 +219,7 @@ void Pet::UserInput(Pet * p)
     case 4:
         {
             //cure() must be called from the Pet class
-            p->Pet::cure();
+            p->cure();
         }
     case 5:
         {
