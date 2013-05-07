@@ -154,7 +154,7 @@ void Pet::cure()
 //If the Hamster is 3 years old, it dies.
 bool Pet::Check()
 {
-	if (this->getHungry() == 10 || this->getHappy() == 0 || this->getClean() == 10)
+	if (this->getHungry() == 10 || this->getHappy() == 0 || this->getClean() == 0)
 	{
 		return false;
 	}
@@ -164,24 +164,16 @@ bool Pet::Check()
 //Displays Pet's overall health & checks Pet's lifespan
 void Pet::Menu()
 {
-    if (Check())
-    {
         //Health Display
         cout << "==" <<getName() <<"'s overall health=="<< endl;
         cout << "Hunger: " << getHungry()<< endl;
         cout << "Happy: " << getHappy() << endl;
         cout << "Clean: " << getClean() << endl;
         cout << "Disease: " << getDisease()<< endl;
-    }
-    else
-    {
-        cout << "Game Over." << getName() << " died.";
-    }
 };
-
 void Pet::UserInput(Pet * p)
 {
-    cout << "What would you like to do with your pet? Enter a number."<< endl;
+    cout << "\nWhat would you like to do with your pet?\n";
     //Pet Activities
     cout << "1. Feed" << endl;
     cout << "2. Play" << endl;
@@ -189,33 +181,30 @@ void Pet::UserInput(Pet * p)
     cout << "4. Cure" << endl;
     cout << "5. Quit" << endl;
 
+    cout << "\nEnter a number: ";
     //Takes in the user's input
     int user;
     cin >>user;
     //Since all the virtual void functions takes in a parameter, it needs 'choice'
-    int choice;
 
     switch(user)
     {
     case 1:
         {
-            cin >> choice;
-            p->feed(choice);
+            p->feed();
         }break;
     case 2:
          {
-            cin >> choice;
-            p->play(choice);
+            p->play();
          }break;
     case 3:
         {
-            cin >> choice;
-            p->cleanIt(choice);
+            p->cleanIt();
         }break;
     case 4:
         {
             //cure() must be called from the Pet class
-            p->Pet::cure();
+            p->cure();
         }
     case 5:
         {
@@ -223,3 +212,4 @@ void Pet::UserInput(Pet * p)
         } break;
     }
 };
+

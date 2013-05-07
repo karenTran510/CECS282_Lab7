@@ -31,9 +31,9 @@ class Pet
 		//Pure Virtual functions
 		//These functions are going to be modified because each pet wants different things, and that they could start off with different ages
 		//These are NOT the actual meters.
-		virtual void feed(int option)=0;
-		virtual void play(int option)=0;
-		virtual void cleanIt(int option)=0;
+		virtual void feed()=0;
+		virtual void play()=0;
+		virtual void cleanIt()=0;
 		virtual void setAge()=0;
 
 		//Access and set name for pet
